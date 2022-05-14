@@ -3,6 +3,8 @@ img{
     object-fit: cover;
 }
 
+.image{width:15em;
+height:15em;}
 /* navbar */
 #menu {
     background: orchid;
@@ -223,6 +225,8 @@ container {
     background-clip: border-box;
     border: 0 solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
+    height: 15em;
+    width:30em;
 }
 
 .card-body {
@@ -1014,6 +1018,14 @@ h6 {
 
 
 /* skills page */
+section #Projects {
+    scroll-margin: 3em;
+}
+section#skills{scroll-margin: 2.7em;}
+section#testimonials{scroll-margin:1em ;}
+section#about{scroll-margin-top: 2.7em;}
+section#resume{scroll-margin: 2em;}
+section#contact{scroll-margin-top: 2.7em;}
 
 /* testimonialas  */
 #testimonials {
@@ -1101,10 +1113,10 @@ h6 {
 }
 
 
-#about {
+/* #about {
     /* height: 120vh;  */
 
-}
+
 
 
 #timeline {
@@ -1140,14 +1152,10 @@ h6 {
 
 
 
-#contact {
-    /* height: 118vh; */
-    background: url("../images/purple\ index\ picture.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
+/* #contact {
+    margin-top: 5px;
+    margin-bottom: 20px;
+} */
 
 
 .container {
@@ -1172,7 +1180,7 @@ h6 {
     height: 10%;
 }
 /* main */
-main {
+/* main {
     padding-bottom: 2.2em;
-}
+} */
 /* end of footer */
